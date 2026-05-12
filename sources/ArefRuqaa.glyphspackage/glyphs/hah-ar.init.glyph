@@ -87,16 +87,8 @@ nodes = (
 (145,4,o),
 (151,22,o),
 (153,32,c),
-(97,21,l),
-(97,20,l),
-(74,16,o),
-(49,12,o),
-(27,6,c),
-(25,6,o),
-(24,5,o),
-(22,5,c),
-(14,3,o),
-(8,1,o),
+(97,21,o),
+(53,13,o),
 (0,0,c),
 (21,124,l)
 );
@@ -219,11 +211,6 @@ nodes = (
 width = 558;
 },
 {
-anchors = (
-{
-name = exit;
-}
-);
 associatedMasterId = "1467EB51-6BD4-4CFC-AEAA-3E4EB1A95CFA";
 attr = {
 color = 1;
@@ -318,11 +305,6 @@ nodes = (
 width = 558;
 },
 {
-anchors = (
-{
-name = exit;
-}
-);
 associatedMasterId = "EF321139-F770-433D-B2B6-C3EFA1B16465";
 attr = {
 color = 1;
