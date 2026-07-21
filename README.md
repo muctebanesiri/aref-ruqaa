@@ -6,7 +6,7 @@ Aref Ruqaa
 Aref Ruqaa (رقعة عارف) is an Arabic typeface that aspires to capture the essence of
 the classical [Ruqaa][1] calligraphic style.
 
-The Arabic part of Aref Ruqaa is designed by the Arabic calligrapher and type
+The Arabic partof Aref Ruqaa is designed by the Arabic calligrapher and type
 designer [Abdullah Aref][2], while the Latin part is based on [AMS Euler][3],
 but spaced for regular text rather than mathematics.
 
