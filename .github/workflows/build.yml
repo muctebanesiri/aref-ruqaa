@@ -21,6 +21,10 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         python -m pip install -r requirements.txt
+    - name: Fix font version
+      run: |
+        VERSION=$(git describe --tags --always | sed 's/,/./g')
+        echo "FONT_VERSION=$VERSION" >> $GITHUB_ENV
     - name: Build
       run: make -B PYTHON=python
     - name: Dist
@@ -29,9 +33,9 @@ jobs:
       if: github.ref_type == 'tag'
       uses: actions/upload-artifact@v4
       with:
-        name: dist
-        path: ArefRuqaa-*.zip
-        if-no-files-found: error
+          name: dist
+          path: ArefRuqaa-*.zip
+          if-no-files-found: error
 
   deploy:
     if: github.ref_type == 'tag'
